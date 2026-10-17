@@ -1,0 +1,13 @@
+SYNTHETIC MODEL ESTIMATES - not measurements from a real mine.
+Warm-up profile, 7 trucks, mean of 30 replications (t per hour):
+  hour:    1    2    3    4    5    6    7    8    9   10   11   12
+  t/h :  680  937  973 1000  990  970 1003  940  930  967  933  920
+  average from hour 49 onwards: 923 t/h
+Throughput estimate (t/h) +/- 95% CI half-width by warm-up (rows) and measurement days (columns):
+measure_days            3            7            14           28
+warmup_h                                                         
+0.0           927 +/- 10.7  927 +/- 6.4  930 +/- 4.2  929 +/- 2.7
+6.0           926 +/- 11.2  927 +/- 6.2  930 +/- 4.0  929 +/- 2.6
+24.0          926 +/- 11.2  928 +/- 6.1  930 +/- 3.8  929 +/- 2.6
+48.0           927 +/- 8.8  930 +/- 5.5  931 +/- 3.5  929 +/- 2.6
+Saved results to C:\Dev\PersonalProjects\pit-haul-sim\pit-haul-sim\results\sensitivity

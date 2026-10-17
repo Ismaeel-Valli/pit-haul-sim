@@ -1,0 +1,111 @@
+{
+  "note": "Synthetic demonstration model. Results are model estimates, not mine measurements.",
+  "time_unit_internal": "minutes",
+  "mine": {
+    "n_trucks": 8,
+    "payload_t": 100.0,
+    "n_shovels": 1,
+    "n_crushers": 1,
+    "load_min": [
+      3,
+      4,
+      5
+    ],
+    "haul_min": [
+      10,
+      12,
+      14
+    ],
+    "dump_min": [
+      5,
+      6,
+      7
+    ],
+    "return_min": [
+      8,
+      10,
+      12
+    ],
+    "mtbf_operating_h": 40.0,
+    "repair_min": [
+      30,
+      60,
+      120
+    ],
+    "shift_interval_h": 12.0,
+    "shift_stop_min": 20.0,
+    "breakdowns_enabled": true,
+    "shifts_enabled": true,
+    "randomness_enabled": true
+  },
+  "experiment": {
+    "fleet_sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "replications": 30,
+    "warmup_h": 24.0,
+    "measure_days": 14,
+    "base_seed": 20261017,
+    "workers": 8
+  },
+  "replication_seeds": {
+    "0": 2347327255,
+    "1": 612041723,
+    "2": 1252853786,
+    "3": 983690062,
+    "4": 2286573250,
+    "5": 1948117458,
+    "6": 204051314,
+    "7": 2272167952,
+    "8": 505924399,
+    "9": 1313497969,
+    "10": 794840804,
+    "11": 3826935725,
+    "12": 3471403897,
+    "13": 1498337967,
+    "14": 1465633056,
+    "15": 1654649938,
+    "16": 1912684666,
+    "17": 2408077795,
+    "18": 3682334065,
+    "19": 2709105162,
+    "20": 1031537871,
+    "21": 3568951162,
+    "22": 3874642273,
+    "23": 3725751110,
+    "24": 261272416,
+    "25": 941689133,
+    "26": 822351240,
+    "27": 2749588802,
+    "28": 2670354495,
+    "29": 4259421310
+  },
+  "analysis": {
+    "plateau_fraction": 0.95,
+    "plateau_tail": 3,
+    "plateau_tolerance": 0.02,
+    "target_tph": 800.0,
+    "truck_cost_per_h": 300.0,
+    "fixed_cost_per_h": 2500.0,
+    "value_per_t": null
+  }
+}

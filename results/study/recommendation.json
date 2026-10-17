@@ -1,0 +1,57 @@
+{
+  "label": "Estimates from a synthetic model - not measurements from a real mine.",
+  "tipping_point": {
+    "status": "ok",
+    "rule": "Smallest fleet whose mean throughput >= 95% of the plateau (mean of the 3 largest fleets tested)",
+    "fleet": 6,
+    "fleet_range": [
+      6,
+      6
+    ],
+    "plateau_tph": 944.0972222222224,
+    "plateau_lo": 941.2845195752259,
+    "plateau_hi": 946.9099248692189,
+    "threshold_tph": 896.8923611111112,
+    "tail_fleets": [
+      18,
+      19,
+      20
+    ],
+    "tail_rise_frac": 0.0002942258183155585,
+    "messages": []
+  },
+  "production_target": {
+    "target_tph": 800.0,
+    "fleet_mean": 5,
+    "fleet_confident": 5,
+    "message": "ok"
+  },
+  "economics_illustrative": {
+    "target_tph": 800.0,
+    "least_cost_overall": 6,
+    "least_cost_meeting_target": 6
+  },
+  "limiting_resource_by_fleet": {
+    "1": "truck fleet",
+    "2": "truck fleet",
+    "3": "truck fleet",
+    "4": "truck fleet",
+    "5": "truck fleet",
+    "6": "crusher",
+    "7": "crusher",
+    "8": "crusher",
+    "9": "crusher",
+    "10": "crusher",
+    "11": "crusher",
+    "12": "crusher",
+    "13": "crusher",
+    "14": "crusher",
+    "15": "crusher",
+    "16": "crusher",
+    "17": "crusher",
+    "18": "crusher",
+    "19": "crusher",
+    "20": "crusher"
+  },
+  "interpretation": "With 1 truck(s) the truck fleet limits output: 177 t/h, trucks queue 0% of the time. With 20 trucks the crusher limits output: 944 t/h (availability-adjusted bound 972 t/h, set by the crusher). The crusher is productively busy 100% and the shovel 66% of their available time; trucks spend 71% of scheduled time queuing. Throughput reaches 897 t/h (95% of the ~944 t/h plateau) at 6 trucks. Each truck beyond that adds on average 2 t/h. Once the bottleneck station is saturated, extra trucks only lengthen its queue: cycle times grow while deliveries do not."
+}

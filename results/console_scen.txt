@@ -1,0 +1,19 @@
+SYNTHETIC MODEL ESTIMATES - not measurements from a real mine.
+Mean throughput (t/h) by scenario:
+scenario  baseline  breakdowns only  combined  shifts only
+n_trucks                                                  
+1            187.0            182.0     177.0        182.0
+2            374.0            360.0     350.0        364.0
+3            559.0            533.0     519.0        543.0
+4            740.0            702.0     682.0        720.0
+5            911.0            856.0     833.0        886.0
+6            999.0            944.0     919.0        972.0
+7           1000.0            959.0     930.0        972.0
+8           1000.0            960.0     931.0        972.0
+9           1000.0            960.0     934.0        972.0
+10          1000.0            962.0     931.0        972.0
+11          1000.0            962.0     936.0        972.0
+12          1000.0            965.0     939.0        972.0
+13          1000.0            967.0     941.0        972.0
+14          1000.0            966.0     940.0        972.0
+Saved results to C:\Dev\PersonalProjects\pit-haul-sim\pit-haul-sim\results\scenarios

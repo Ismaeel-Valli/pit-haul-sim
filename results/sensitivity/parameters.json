@@ -1,0 +1,56 @@
+{
+  "note": "Synthetic demonstration model. Results are model estimates, not mine measurements.",
+  "mine": {
+    "n_trucks": 8,
+    "payload_t": 100.0,
+    "n_shovels": 1,
+    "n_crushers": 1,
+    "load_min": [
+      3,
+      4,
+      5
+    ],
+    "haul_min": [
+      10,
+      12,
+      14
+    ],
+    "dump_min": [
+      5,
+      6,
+      7
+    ],
+    "return_min": [
+      8,
+      10,
+      12
+    ],
+    "mtbf_operating_h": 40.0,
+    "repair_min": [
+      30,
+      60,
+      120
+    ],
+    "shift_interval_h": 12.0,
+    "shift_stop_min": 20.0,
+    "breakdowns_enabled": true,
+    "shifts_enabled": true,
+    "randomness_enabled": true
+  },
+  "fleet_size": 7,
+  "replications": 30,
+  "base_seed": 20261017,
+  "warmups_h": [
+    0.0,
+    6.0,
+    24.0,
+    48.0
+  ],
+  "measure_days": [
+    3,
+    7,
+    14,
+    28
+  ],
+  "profile_hours": 96
+}
