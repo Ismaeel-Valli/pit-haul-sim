@@ -151,4 +151,4 @@ fitted distributions. Each is discussed, with the change it would make, in
 Discrete-event modelling of interruptions with preserved progress; careful output analysis
 (warm-up, independent replications, confidence intervals, common random numbers, paired
 comparisons); decision rules that report uncertainty instead of forcing an answer; and a
-testable separation between engine, analysis and UI. Talking points: [docs/INTERVIEW.md](docs/INTERVIEW.md).
+testable separation between engine, analysis and UI. 
